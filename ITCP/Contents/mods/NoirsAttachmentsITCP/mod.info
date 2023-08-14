@@ -4,3 +4,4 @@ description=Compatibility patch of NoirsAttachments mod to detect item from matc
 description=Works on 41.78+.
 poster=poster.png
 require=nattachments
+icon=icon.png
