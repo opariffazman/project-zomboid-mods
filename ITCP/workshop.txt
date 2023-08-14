@@ -12,5 +12,5 @@ description=[ul]
 description=[li][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2803794394]For Science![/url][/li]
 description=[li][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2754567348]NoirsAttachments[/url][/li]
 description=[/ul]
-tags=Build 41
+tags=Build 41;Misc
 visibility=public
