@@ -14,7 +14,7 @@ local original_tinkerInvContextMenu = ISForScience.tinkerInvContextMenu
 local original_onTinkerInv = ISForScience.onTinkerInv
 
 local function new_dissectCorpseContextMenu(player, context, worldobjects, test)
-	print("dissectCorpseContextMenu patched")
+	-- print("dissectCorpseContextMenu patched")
 
 	local playerObj = getSpecificPlayer(player)
 	local x = getMouseX()
@@ -45,7 +45,7 @@ local function new_dissectCorpseContextMenu(player, context, worldobjects, test)
 end
 
 local function new_onDissectCorpse(worldobjects, player, corpse)
-	print("onDissectCorpse patched")
+	-- print("onDissectCorpse patched")
 
 	local playerObj = getSpecificPlayer(player);
 	local playerInv = playerObj:getInventory();
@@ -57,7 +57,7 @@ local function new_onDissectCorpse(worldobjects, player, corpse)
 end
 
 local function new_tinkerWorldContextMenu(player, context, worldobjects, test)
-	print("tinkerWorldContextMenu patched")
+	-- print("tinkerWorldContextMenu patched")
 
 	local playerObj = getSpecificPlayer(player)
 	local sq = clickedSquare;
@@ -170,7 +170,7 @@ local function new_tinkerWorldContextMenu(player, context, worldobjects, test)
 end
 
 local function new_onTinkerWorld(worldobjects, player, device, isSimple)
-	print("onTinkerWorld patched")
+	-- print("onTinkerWorld patched")
 
 	local playerObj = getSpecificPlayer(player);
 	local playerInv = playerObj:getInventory();
@@ -182,7 +182,7 @@ local function new_onTinkerWorld(worldobjects, player, device, isSimple)
 end
 
 local function new_tinkerInvContextMenu(player, context, items)
-	print("tinkerInvContextMenu patched")
+	-- print("tinkerInvContextMenu patched")
 
 	local playerObj = getSpecificPlayer(player);
 	items = ISInventoryPane.getActualItems(items)
@@ -212,7 +212,7 @@ local function new_tinkerInvContextMenu(player, context, items)
 end
 
 local function new_onTinkerInv(player, device)
-	print("onTinkerInv patched")
+	-- print("onTinkerInv patched")
 
 	local playerObj = getSpecificPlayer(player);
 	local playerInv = playerObj:getInventory();

@@ -5,7 +5,7 @@ end
 local original_isValid = ISFSTinkerAction.isValid
 
 local function new_isValid(self)
-	print("tinker isValid patched")
+	-- print("tinker isValid patched")
 	
 	local playerInv = self.character:getInventory()
 	local containsScrewdriver = playerInv:containsTag("Screwdriver")

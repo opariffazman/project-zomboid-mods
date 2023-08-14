@@ -5,7 +5,7 @@ end
 local original_isValid = ISFSDissectCorpseAction.isValid
 
 local function new_isValid(self)
-	print("dissect isValid patched")
+	-- print("dissect isValid patched")
 
 	local playerInv = self.character:getInventory()
 	local containsScalpel = playerInv:containsTag("SharpKnife")
