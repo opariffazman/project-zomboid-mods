@@ -1,7 +1,5 @@
-if getActivatedMods():contains("nattachments") then
-  require("NATT_Recipes");
-else
-  return
+if not getActivatedMods():contains("nattachments") then
+	return
 end
 
 local recipes = getAllRecipes()
