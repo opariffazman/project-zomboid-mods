@@ -8,7 +8,9 @@ description=
 description=This mod fixes that allowing for item with correct [b]Tags[/b] to be used in recipes/actions.
 description=
 description=Patch included:-
-description=
-description=[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2803794394]For Science[/url]
+description=[ul]
+description=[li][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2803794394]For Science![/url][/li]
+description=[li][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2754567348]NoirsAttachments[/url][/li]
+description=[/ul]
 tags=Build 41
 visibility=public
