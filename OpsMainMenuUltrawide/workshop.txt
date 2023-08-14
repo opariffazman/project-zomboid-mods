@@ -1,0 +1,6 @@
+version=1
+id=3009200636
+title=Custom Main Menu Art Ultrawide 21:9
+description=A custom art based on my in-game character for main menu for ultrawide resolution.
+tags=Build 40;Build 41;Interface;Misc;Silly/Fun
+visibility=public
