@@ -1,6 +1,6 @@
 name=ForScienceITCP
 id=ForScienceITCP
-description=Compatibility patch for Item type, simple change from default method of getting Base Item to get the Item Tag instead.
-description= Works on 41.78+.
+description=Compatibility patch of ForScience! mod to detect item from matching tags.
+description=Works on 41.78+.
 poster=poster.png
 require=ItemTweakerAPI
