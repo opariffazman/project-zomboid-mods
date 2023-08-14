@@ -16,5 +16,9 @@ description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=27545
 description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2875848298]Common Sense[/url] - Allows Prying Door/Vehicle
 description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2012990668]Reorganized Info Screen[/url] - Allows Shaving
 description=[/list]
+description=
+description=[url=https://ko-fi.com/opsedar][img]https://cdn.discordapp.com/attachments/1114746877548707860/1140686324152680568/Ko-fi.gif[/img][/url]
+description=
+description=[img]https://imgur.com/eZp8dXD.gif[/img]
 tags=Build 41;Misc
 visibility=public
