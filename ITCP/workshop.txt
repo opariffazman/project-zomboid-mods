@@ -1,16 +1,20 @@
 version=1
 id=3020000656
-title=ItemTypeCompatibilityPatch
+title=ItemTagsCompatibilityPatch
 description=Compatibility patches for mods that uses Base Item to use vanilla Item Tags instead.
 description=
 description=For example, items added by [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2870742794]Tools of The Trade[/url] correctly use [b]Tags[/b] but other mods that uses Base Item instead of Tags won't recognize it.
 description=
-description=This mod fixes that allowing for item with correct [b]Tags[/b] to be used in recipes/actions.
+description=Mainly used for our private server with other list of mods.
+description=
+description=This mod fixes that by allowing other mods specific actions to be done as long as an Item with matching [b]Tags[/b] are defined in any other mods using [b]Tags[/b].
 description=
 description=Patch included:-
 description=[list]
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2803794394]For Science![/url]
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2754567348]NoirsAttachments[/url]
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2803794394]For Science![/url] - Allows Tinkering & Dissecting
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2754567348]NoirsAttachments[/url] - Allows Adding & Removing Backpack Slots
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2875848298]Common Sense[/url] - Allows Prying Door/Vehicle
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2012990668]Reorganized Info Screen[/url] - Allows Shaving
 description=[/list]
 tags=Build 41;Misc
 visibility=public
