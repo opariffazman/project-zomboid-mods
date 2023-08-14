@@ -1,6 +1,7 @@
 version=1
 id=3020000656
-title=ITCP
+title=ItemTypeCompatibilityPatch
 description=Compatibility patches for mods that uses Base Item to use Item Tags instead.
 tags=Build 41
 visibility=public
+require=ItemTweakerAPI
