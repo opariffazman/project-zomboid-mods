@@ -4,3 +4,4 @@ description=Compatibility patch of ForScience! mod to detect item from matching 
 description=Works on 41.78+.
 poster=poster.png
 require=ItemTweakerAPI
+require=ForScience

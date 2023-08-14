@@ -3,3 +3,4 @@ id=NoirsAttachmentsITCP
 description=Compatibility patch of NoirsAttachments! mod to detect item from matching tags.
 description=Works on 41.78+.
 poster=poster.png
+require=nattachments
