@@ -2,10 +2,13 @@ version=1
 id=3020000656
 title=ItemTypeCompatibilityPatch
 description=Compatibility patches for mods that uses Base Item to use vanilla Item Tags instead.
+description=
 description=For example, items added by [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2870742794]Tools of The Trade[/url] correctly use [b]Tagsp[/b] but other mods that uses Base Item instead of Tags won't recognize it.
-description=This mod fixes that allowing for item with correct [b]Tagsp[/b] to be used in recipes/actions.
+description=
+description=This mod fixes that allowing for item with correct [b]Tag[/b] to be used in recipes/actions.
+description=
 description=Patch included:-
+description=
 description=[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2803794394]For Science[/url]
 tags=Build 41
 visibility=public
-require=ItemTweakerAPI
