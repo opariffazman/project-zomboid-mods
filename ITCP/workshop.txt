@@ -1,20 +1,22 @@
 version=1
 id=3020000656
 title=ItemTagsCompatibilityPatch
-description=Compatibility patches for mods that uses Base Item to use vanilla Item Tags instead.
+description=Compatibility patches for various other mods that uses hardcoded item name, this mod patched them to use in-game existing tags instead.
 description=
-description=For example, items added by [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2870742794]Tools of The Trade[/url] correctly use [b]Tags[/b] but other mods that uses Base Item instead of Tags won't recognize it.
+description=For example, items added by [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2870742794]Tools of The Trade[/url] correctly uses in-game [b]Tags[/b]. Say a Spiffo Army Knife which got various function, it got "Scissors" and "SewingNeedle" tags.
+description=However other mods like [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2754567348]Noir's Attachments[/url] only works if you got "Scissors" & "Needle" tools specifically. So tools from other mods that are tagged correctly won't be usable.
 description=
-description=Mainly used for our private server with other list of mods.
+description=This mod fixes that. If you use other mods that add items with proper use of in-game [b]Tags[/b] (Screwdriver, SharpKnife, etc).
+description=Recipes or actions added by these patched mods will correctly recognize the items added. [i]Note: It is not limited to [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2870742794]Tools of The Trade[/url] items as this is just what I use.[/i]
 description=
-description=This mod fixes that by allowing other mods specific actions to be done as long as an Item with matching [b]Tags[/b] are defined in any other mods using [b]Tags[/b].
-description=
-description=Patch included:-
+description=Patches done so far:-
 description=[list]
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2803794394]For Science![/url] - Allows Tinkering & Dissecting
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2754567348]NoirsAttachments[/url] - Allows Adding & Removing Backpack Slots
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2875848298]Common Sense[/url] - Allows Prying Door/Vehicle
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2012990668]Reorganized Info Screen[/url] - Allows Shaving
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2803794394]For Science![/url] - [i]Scissors & SharpKnife[/i] tags
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2754567348]Noir's Attachments[/url] - [i]Scissors & SewingNeedle[/i] tags
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2875848298]Common Sense[/url] - [i]Crowbar[/i] tags
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2012990668]Reorganized Info Screen[/url] - [i]Razor[/i] tags
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2584991527]Auto Sewing[/url] - [i]SewingNeedle[/i] tags
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2588598892]Auto Mechanics[/url] - [i]Screwdriver[/i] tags
 description=[/list]
 description=
 description=[url=https://ko-fi.com/opsedar][img]https://cdn.discordapp.com/attachments/1114746877548707860/1140686324152680568/Ko-fi.gif[/img][/url]
