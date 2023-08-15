@@ -1,15 +1,30 @@
 version=1
 id=3020000656
-title=ItemTagsCompatibilityPatch
-description=Compatibility patches for various other mods that uses hardcoded item name, this mod patches them to use in-game existing tags instead.
+title=Item Tags Compatibility Patch
+description=[b][h1]ITCP - Item Tags Compatibility Patch[/h1][/b]
+description=[b]Compatibility patches for various other mods that uses hardcoded item name, this mod patches them to use in-game existing tags instead.[/b]
 description=
-description=For example, items added by [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2870742794]Tools of The Trade[/url] correctly uses in-game [b]Tags[/b]. Say a Spiffo Army Knife which got various function, it got "Scissors" and "SewingNeedle" tags.
-description=However other mods like [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2754567348]Noir's Attachments[/url] only works if you got "Scissors" & "Needle" tools specifically. So tools from other mods that are tagged correctly won't be usable.
+description=[h2]Problem[/h2]
+description=[list]
+description=[*]Items added by [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2870742794]Tools of The Trade[/url] correctly uses in-game [b]Tags[/b].
+description=[*]The Spiffo Army Knife has [i]"Scissors"[/i] and [i]"SewingNeedle"[/i] [b]Tags[/b].
+description=[*]But recipes from mods [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2754567348]Noir's Attachments[/url] won't work with it.
+description=[*]As it will only works if you specifically have these items [i]"Scissors"[/i] & [i]"Needle"[/i].
+description=[*]So tools from other mods that are tagged correctly won't be usable with other mods that have hardcoded values.
+description=[/list]
 description=
-description=This mod fixes that. If you use other mods that add items with proper use of in-game [b]Tags[/b] (Screwdriver, SharpKnife, etc).
-description=Recipes or actions added by these patched mods will correctly recognize the items added. [i]Note: It is not limited to [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2870742794]Tools of The Trade[/url] items as this is just what I use.[/i]
+description=[h2]Solution[/h2]
+description=[list]
+description=[*]This mod fixes that by using the corresponding [b]Tags[/b] instead.
+description=[*]Other mod items that uses in-game [b]Tags[/b] will also be usable with these patched mods.
+description=[*]Recipes or actions added by these patched mods will correctly recognize the items added.
+description=[*]Note: It is not limited to [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2870742794]Tools of The Trade[/url] [i](This is just what I use.)[/i]
+description=[/list]
 description=
-description=Patches done so far:-
+description=[h2]Installation[/h2]
+description=Subscribe to this mod normally and enable the patches that you need.
+description=
+description=[h2]Patch lists:[/h2]
 description=[list]
 description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2803794394]For Science![/url] - [i]Scissors & SharpKnife[/i] tags
 description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2754567348]Noir's Attachments[/url] - [i]Scissors & SewingNeedle[/i] tags
@@ -19,8 +34,20 @@ description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=25849
 description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2588598892]Auto Mechanics[/url] - [i]Screwdriver[/i] tags
 description=[/list]
 description=
+description=[h2]Compatibility[/h2]
+description=Build 41.78+
+description=
+description=[h2]Known Issue[/h2]
+description=None that I know of.
+description=
+description=[h2]Credits[/h2]
+description=[list]
+description=[*]Indie Stone
+description=[*]Project Zomboid Modding Community
+description=[/list]
+description=
 description=[url=https://ko-fi.com/opsedar][img]https://cdn.discordapp.com/attachments/1114746877548707860/1140686324152680568/Ko-fi.gif[/img][/url]
 description=
-description=[img]https://imgur.com/eZp8dXD.gif[/img]
+description=[img]https://cdn.discordapp.com/attachments/1114746877548707860/1140883756903833672/steam-workshop.gif[/img]
 tags=Build 41;Misc
 visibility=public
