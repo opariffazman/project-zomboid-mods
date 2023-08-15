@@ -1,0 +1,7 @@
+name=AutoSewingITCP
+id=AutoSewingITCP
+description=Compatibility patch of AutoSewing mod to detect item from matching tags.
+description=Works on 41.78+.
+poster=poster.png
+require=AutoSewing
+icon=icon.png
