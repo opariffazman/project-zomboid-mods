@@ -1,0 +1,7 @@
+name=Item Condition Indicator
+description=Addon to NoctisFalco Weapon Condition Indicator to also shows condition of Item (drainable).
+id=ItemConditionIndicator
+poster=poster.png
+icon=icon.png
+require=TheStar
+tags=Interface
