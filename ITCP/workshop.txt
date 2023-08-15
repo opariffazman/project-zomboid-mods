@@ -1,7 +1,7 @@
 version=1
 id=3020000656
 title=ItemTagsCompatibilityPatch
-description=Compatibility patches for various other mods that uses hardcoded item name, this mod patched them to use in-game existing tags instead.
+description=Compatibility patches for various other mods that uses hardcoded item name, this mod patches them to use in-game existing tags instead.
 description=
 description=For example, items added by [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2870742794]Tools of The Trade[/url] correctly uses in-game [b]Tags[/b]. Say a Spiffo Army Knife which got various function, it got "Scissors" and "SewingNeedle" tags.
 description=However other mods like [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2754567348]Noir's Attachments[/url] only works if you got "Scissors" & "Needle" tools specifically. So tools from other mods that are tagged correctly won't be usable.
