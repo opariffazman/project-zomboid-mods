@@ -1,0 +1,476 @@
+module KCMweapons
+{
+	imports
+	{
+		Base,
+	}
+
+	/****************************** REPAIR & DISMANTLE RECIPES ******************************/
+
+	recipe Deconstruct Hand Crossbow
+	{
+		keep [Recipe.GetItemTypes.Screwdriver],
+		HandCrossbow,
+        
+
+        NoBrokenItems		: true,        
+		Result 				: ScrapMetal,
+		Time 				: 800,
+        	OnCreate			: DismantleHandCrossbow_OnCreate,
+        	OnGiveXP			: Give10MetalWeldingXP,
+        	Category            		: Crossbows,
+		AnimNode 			: Disassemble,
+        Prop1				: Screwdriver,
+	}
+	
+	recipe Deconstruct Hunting Crossbow
+	{
+		KCM_Compound02/KCM_Compound,
+        keep [Recipe.GetItemTypes.Screwdriver],
+
+        NoBrokenItems		: true,        
+		Result 				: ScrapMetal,
+		Time 				: 1000,
+        	OnCreate			: DismantleHuntingCrossbow_OnCreate,
+        	OnGiveXP			: Give10MetalWeldingXP,
+        	Category            		: Crossbows,
+		AnimNode 			: Disassemble,
+        Prop1				: Screwdriver,
+	}
+
+	recipe Deconstruct Long Crossbow Bolts (x3)
+	{
+		CrossbowBoltLarge = 3,
+        keep [Recipe.GetItemTypes.Saw],
+
+        NoBrokenItems		: true,        
+		Result 				: ScrapMetal,
+		Sound 				: Sawing,
+		Time 				: 500,
+        	OnGiveXP			: Give3MetalWeldingXP,
+        	Category            		: Crossbows,
+		AnimNode 			: Disassemble,
+        Prop1				: Hacksaw,
+	}
+	
+	recipe Deconstruct Short Crossbow Bolts (x3)
+	{
+		CrossbowBolt = 3,
+        keep [Recipe.GetItemTypes.Saw],
+
+        NoBrokenItems		: true,        
+		Result 				: ScrapMetal,
+		Sound 				: Sawing,
+		Time 				: 500,
+        	OnGiveXP			: Give3MetalWeldingXP,
+        	Category            		: Crossbows,
+		AnimNode 			: Disassemble,
+        Prop1				: Hacksaw,
+	}
+
+
+
+	/****************************** CRAFTING RECIPES ******************************/
+
+	recipe Create Wooden Crossbow
+
+	{
+		Plank=4,
+		Nails=10,
+		Twine=4,
+		ScrapMetal=2,
+		RippedSheets=2,
+        keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.Saw],
+
+        NoBrokenItems		: true,        
+		Result 				: KCM_Handmade,
+		Sound 				: Sawing,
+		Time 				: 2500,
+        	Category            		: Crossbows,
+		AnimNode 			: Disassemble,
+		OnGiveXP			: Give10WoodworkXP,
+        Prop1				: Hacksaw,
+		NeedToBeLearn:true,
+	}
+
+	recipe Create Metal Crossbow
+
+	{
+		SmallSheetMetal=2,
+		BlowTorch=1,
+		Screws=10,
+		Twine=4,
+		ScrapMetal=4,
+        keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Saw],
+
+        NoBrokenItems		: true,        
+		Result 				: KCM_Handmade02,
+		Sound 				: Blowtorch,
+		Time 				: 5000,
+        	Category            		: Crossbows,
+		AnimNode 			: Disassemble,
+		OnGiveXP			: Give10MetalWeldingXP,
+        Prop1				: BlowTorch,
+		NeedToBeLearn:true,
+	}
+
+	recipe Create Wooden Crossbow Bolts (x3)
+    {
+       SharpedStone = 3,
+	   WoodenStick = 3,
+       [Recipe.GetItemTypes.Glue]/Twine,
+		keep [Recipe.GetItemTypes.SharpKnife],
+	   keep [Recipe.GetItemTypes.Hammer],
+
+       Result:WoodenBolt = 3,
+       Time:1000,
+	   Sound:Hammering,
+	   AnimNode:Disassemble,
+		OnGiveXP			: Give5WoodworkXP,
+	   Prop1:Hammer,
+       Category:Crossbows,
+	   NeedToBeLearn:true,
+    }
+
+	recipe Create Wooden Crossbow Bolts (x3)
+    {
+       ScrapMetal = 1,
+	   WoodenStick = 3,
+       [Recipe.GetItemTypes.Glue]/Twine,
+		keep [Recipe.GetItemTypes.SharpKnife],
+	   keep [Recipe.GetItemTypes.Hammer],
+
+       Result:WoodenBolt = 3,
+       Time:1000,
+	   Sound:Hammering,
+	   AnimNode:Disassemble,
+		OnGiveXP			: Give5WoodworkXP,
+	   Prop1:Hammer,
+       Category:Crossbows,
+	   NeedToBeLearn:true,
+    }
+
+	recipe Create Bolt Fletching (x3)
+
+    {
+       ScrapMetal,	
+	   keep [Recipe.GetItemTypes.Hammer],
+	   keep [Recipe.GetItemTypes.Saw],
+
+       Result:CrossbowBoltFletching = 3,
+       Time:200,
+	   Sound:Sawing,
+       AnimNode:SawLog,
+		OnGiveXP			: Give5MetalWeldingXP,
+       Prop1:GardenSaw,
+       Category:Crossbows,
+	   NeedToBeLearn:true,
+    }
+	
+    recipe Create Short Shafts (x3)
+    {
+       ScrapMetal,
+	   keep [Recipe.GetItemTypes.Hammer],
+       keep [Recipe.GetItemTypes.Saw],
+
+       Result:ShortShaft = 3,
+       Time:200,
+	   Sound:Sawing,
+	   AnimNode:SawLog,
+		OnGiveXP			: Give5MetalWeldingXP,
+	   Prop1:GardenSaw,
+       Category:Crossbows,
+	   NeedToBeLearn:true,
+    }
+	
+	recipe Create Long Shafts (x3)
+    {
+       ScrapMetal,
+	   keep [Recipe.GetItemTypes.Hammer],
+       keep [Recipe.GetItemTypes.Saw],
+
+       Result:LongShaft = 3,
+       Time:200,
+	   Sound:Sawing,
+	   AnimNode:SawLog,
+		OnGiveXP			: Give5MetalWeldingXP,
+	   Prop1:GardenSaw,
+       Category:Crossbows,
+	   NeedToBeLearn:true,
+    }
+
+    recipe Create Bolt Head (x3)
+    {
+       ScrapMetal,
+	   keep [Recipe.GetItemTypes.Hammer],
+       keep [Recipe.GetItemTypes.Saw],
+
+       Result:CrossbowBoltHead = 3,
+       Time:300,
+	   Sound:Sawing,
+       AnimNode:SawLog,
+		OnGiveXP			: Give5MetalWeldingXP,
+       Prop1:GardenSaw,
+       Category:Crossbows,
+	   NeedToBeLearn:true,
+    }
+	
+    recipe Create Long Crossbow Bolt (x3)
+    {
+       CrossbowBoltFletching = 3,
+	   LongShaft = 3,
+	   CrossbowBoltHead = 3,
+       [Recipe.GetItemTypes.Glue]/BlowTorch,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+       Result:CrossbowBoltLarge = 3,
+       Time:600,
+	   Sound:Hammering,
+	   AnimNode:Disassemble,
+		OnGiveXP			: Give5MetalWeldingXP,
+	   Prop1:Hammer,
+       Category:Crossbows,
+	   NeedToBeLearn:true,
+    }
+	
+	recipe Create Short Crossbow Bolt (x3)
+    {
+       CrossbowBoltFletching = 3,
+	   ShortShaft = 3,
+	   CrossbowBoltHead = 3,
+       [Recipe.GetItemTypes.Glue]/BlowTorch,
+	   keep [Recipe.GetItemTypes.Hammer],
+
+       Result:CrossbowBolt = 3,
+       Time:600,
+	   Sound:Hammering,
+	   AnimNode:Disassemble,
+		OnGiveXP			: Give5MetalWeldingXP,
+	   Prop1:Hammer,
+       Category:Crossbows,
+	   NeedToBeLearn:true,
+    }
+
+	recipe Create Chipped Stone
+	{
+		Stone=4,
+		keep [Recipe.GetItemTypes.Hammer],
+
+		Result:SharpedStone,
+		Time:300,
+		CanBeDoneFromFloor:true,
+		Category:Survivalist,
+	}
+
+
+	/****************************** ATTACHMENT CONVERSION RECIPES******************************/
+    recipe Change Sling to Crossbow Sling
+    {
+       Sling,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+       Result:KCM_Sling,
+       Time:40.0,
+	   Sound:Screwing,
+	   AnimNode:Disassemble,
+	   Prop1:Screwdriver,
+       NeedToBeLearn:FALSE,
+    }
+
+    recipe Change Ironsight to Crossbow Ironsight
+    {
+       IronSight,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+       Result:KCM_IronSight,
+       Time:40.0,
+	   Sound:Screwing,
+	   AnimNode:Disassemble,
+	   Prop1:Screwdriver,
+       NeedToBeLearn:FALSE,
+    }
+
+    recipe Change x2 Scope to Crossbow x2 Scope
+    {
+       x2Scope,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+       Result:KCM_x2Scope,
+       Time:40.0,
+	   Sound:Screwing,
+	   AnimNode:Disassemble,
+	   Prop1:Screwdriver,
+       NeedToBeLearn:FALSE,
+    }
+
+    recipe Change x4 Scope to Crossbow x4 Scope
+    {
+       x4Scope,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+       Result:KCM_x4Scope,
+       Time:40.0,
+	   Sound:Screwing,
+	   AnimNode:Disassemble,
+	   Prop1:Screwdriver,
+       NeedToBeLearn:FALSE,
+    }
+
+    recipe Change x8 Scope to Crossbow x8 Scope
+    {
+       x8Scope,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+       Result:KCM_x8Scope,
+       Time:40.0,
+	   Sound:Screwing,
+	   AnimNode:Disassemble,
+	   Prop1:Screwdriver,
+       NeedToBeLearn:FALSE,
+    }
+
+    recipe Change RedDot to Crossbow RedDot
+    {
+       RedDot,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+       Result:KCM_RedDot,
+       Time:40.0,
+	   Sound:Screwing,
+	   AnimNode:Disassemble,
+	   Prop1:Screwdriver,
+       NeedToBeLearn:FALSE,
+    }
+
+    recipe Change Stock to Crossbow Stock
+    {
+       FiberglassStock,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+       Result:KCM_FiberglassStock,
+       Time:40.0,
+	   Sound:Screwing,
+	   AnimNode:Disassemble,
+	   Prop1:Screwdriver,
+       NeedToBeLearn:FALSE,
+    }
+
+    recipe Change Laser to Crossbow Laser
+    {
+       Laser,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+       Result:KCM_Laser,
+       Time:40.0,
+	   Sound:Screwing,
+	   AnimNode:Disassemble,
+	   Prop1:Screwdriver,
+       NeedToBeLearn:FALSE,
+    }
+
+    recipe Change Crossbow Sling to Normal Sling
+    {
+       KCM_Sling,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+       Result:Sling,
+       Time:40.0,
+	   Sound:Screwing,
+	   AnimNode:Disassemble,
+	   Prop1:Screwdriver,
+       NeedToBeLearn:FALSE,
+    }
+
+    recipe Change Crossbow Ironsight to Normal Ironsight
+    {
+       KCM_IronSight,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+       Result:IronSight,
+       Time:40.0,
+	   Sound:Screwing,
+	   AnimNode:Disassemble,
+	   Prop1:Screwdriver,
+       NeedToBeLearn:FALSE,
+    }
+
+    recipe Change Crossbow x2 Scope to Normal x2 Scope
+    {
+       KCM_x2Scope,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+       Result:x2Scope,
+       Time:40.0,
+	   Sound:Screwing,
+	   AnimNode:Disassemble,
+	   Prop1:Screwdriver,
+       NeedToBeLearn:FALSE,
+    }
+
+    recipe Change Crossbow x4 Scope to Normal 4x Scope
+    {
+       KCM_x4Scope,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+       Result:x4Scope,
+       Time:40.0,
+	   Sound:Screwing,
+	   AnimNode:Disassemble,
+	   Prop1:Screwdriver,
+       NeedToBeLearn:FALSE,
+    }
+
+    recipe Change Crossbow x8 Scope to Normal x8 Scope
+    {
+       KCM_x8Scope,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+       Result:x8Scope,
+       Time:40.0,
+	   Sound:Screwing,
+	   AnimNode:Disassemble,
+	   Prop1:Screwdriver,
+       NeedToBeLearn:FALSE,
+    }
+
+    recipe Change Crossbow RedDot to Normal RedDot
+    {
+       KCM_RedDot,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+       Result:RedDot,
+       Time:40.0,
+	   Sound:Screwing,
+	   AnimNode:Disassemble,
+	   Prop1:Screwdriver,
+       NeedToBeLearn:FALSE,
+    }
+
+    recipe Change Crossbow Stock to Normal Stock
+    {
+       KCM_FiberglassStock,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+       Result:FiberglassStock,
+       Time:40.0,
+	   Sound:Screwing,
+	   AnimNode:Disassemble,
+	   Prop1:Screwdriver,
+       NeedToBeLearn:FALSE,
+    }
+
+    recipe Change Crossbow Laser to Normal Laser
+    {
+       KCM_Laser,
+	   keep [Recipe.GetItemTypes.Screwdriver],
+
+       Result:Laser,
+       Time:40.0,
+	   Sound:Screwing,
+	   AnimNode:Disassemble,
+	   Prop1:Screwdriver,
+       NeedToBeLearn:FALSE,
+    }
+}
