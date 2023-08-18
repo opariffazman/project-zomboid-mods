@@ -34,6 +34,8 @@ description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=20129
 description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2584991527]Auto Sewing[/url] - [i]SewingNeedle[/i] tags
 description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2588598892]Auto Mechanics[/url] - [i]Screwdriver[/i] tags
 description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2948810285]Capacity Vest and Ammo Straps[/url] - [i]Scissors & SewingNeedle[/i] tags
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2127583399]Better Belts[/url] - [i]Scissors & SewingNeedle[/i] tags
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2572385719]Remastered Kitsune's Crossbow Mod[/url] - [i]Scissors, SharpKnife & Glue[/i] tags
 description=[/list]
 description=
 description=[h2]Compatibility[/h2]
