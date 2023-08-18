@@ -2,7 +2,7 @@ if not getActivatedMods():contains("AutoSewing") then
     return
 end
 
-local original_getPlayerFastestItemAnyInventory = AutoSewing.getPlayerFastestItemAnyInventory
+local original_getPlayerFastestItemAnyInventory
 
 local function new_getPlayerFastestItemAnyInventory(player, itemType)
     -- print("getPlayerFastestItemAnyInventory patched")

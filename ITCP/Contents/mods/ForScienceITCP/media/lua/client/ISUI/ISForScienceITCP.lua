@@ -6,12 +6,12 @@ local function predicateNotBroken(item)
 	return not item:isBroken()
 end
 
-local original_dissectCorpseContextMenu = ISForScience.dissectCorpseContextMenu
-local original_onDissectCorpse = ISForScience.onDissectCorpse
-local original_tinkerWorldContextMenu = ISForScience.tinkerWorldContextMenu
-local original_onTinkerWorld = ISForScience.onTinkerWorld
-local original_tinkerInvContextMenu = ISForScience.tinkerInvContextMenu
-local original_onTinkerInv = ISForScience.onTinkerInv
+local original_dissectCorpseContextMenu
+local original_onDissectCorpse
+local original_tinkerWorldContextMenu
+local original_onTinkerWorld
+local original_tinkerInvContextMenu
+local original_onTinkerInv
 
 local function new_dissectCorpseContextMenu(player, context, worldobjects, test)
 	-- print("dissectCorpseContextMenu patched")

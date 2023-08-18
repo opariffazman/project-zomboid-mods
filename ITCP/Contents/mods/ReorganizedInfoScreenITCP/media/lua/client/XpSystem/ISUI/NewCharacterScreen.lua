@@ -1,4 +1,4 @@
-local original_onShaveChest = ISCharacterScreen.onShaveChest
+local original_onShaveChest
 
 local function new_onShaveChest(playerObj, chestStyle)
 	local playerInv = playerObj:getInventory()

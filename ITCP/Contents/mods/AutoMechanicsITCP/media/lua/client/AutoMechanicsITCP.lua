@@ -2,7 +2,7 @@ if not getActivatedMods():contains("AutoMechanics") then
     return
 end
 
-local original_getPlayerFastestItemAnyInventory = AutoMechanics.getPlayerFastestItemAnyInventory
+local original_getPlayerFastestItemAnyInventory
 
 local function new_getPlayerFastestItemAnyInventory(player, itemType)
     -- print("getPlayerFastestItemAnyInventory patched")

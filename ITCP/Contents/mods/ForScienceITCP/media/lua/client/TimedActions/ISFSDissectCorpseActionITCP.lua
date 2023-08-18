@@ -2,7 +2,7 @@ if not getActivatedMods():contains("ForScience") then
 	return
 end
 
-local original_isValid = ISFSDissectCorpseAction.isValid
+local original_isValid
 
 local function new_isValid(self)
 	-- print("dissect isValid patched")

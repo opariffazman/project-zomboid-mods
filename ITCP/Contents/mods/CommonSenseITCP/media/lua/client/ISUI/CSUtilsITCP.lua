@@ -2,9 +2,9 @@ if not getActivatedMods():contains("BB_CommonSense") then
   return
 end
 
-local original_playerHasPryingTool = CSUtils.playerHasPryingTool
-local original_showRadialMenuOutsideCrowbar = CSUtils.showRadialMenuOutsideCrowbar
-local original_OnFillWorldObjectContextMenuCrowbar = CSUtils.OnFillWorldObjectContextMenuCrowbar
+local original_playerHasPryingTool
+local original_showRadialMenuOutsideCrowbar
+local original_OnFillWorldObjectContextMenuCrowbar
 
 local function new_playerHasPryingTool(playerObj, itemID, override)
   -- print("playerHasPryingTool patched")
