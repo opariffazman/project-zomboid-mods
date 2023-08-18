@@ -38,4 +38,4 @@ local function HideRecipe()
   end
 end
 
-Events.OnGameStart.Add(HideRecipe);
+HideRecipe()
