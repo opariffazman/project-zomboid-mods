@@ -1,0 +1,7 @@
+name=ToolsOfTheTradeITCP
+id=ToolsOfTheTradeITCP
+description=Compatibility patch of ToolsOfTheTrade mod to interact with some in-game mechanics.
+description=Works on 41.78+.
+poster=poster.png
+require=ToolsOfTheTrade
+icon=icon.png
