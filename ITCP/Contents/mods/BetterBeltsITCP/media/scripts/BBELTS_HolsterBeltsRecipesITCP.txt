@@ -1,0 +1,38 @@
+module Base
+{
+	recipe Create Holster
+    {
+        keep [Recipe.GetItemTypes.Scissors],
+		keep [Recipe.GetItemTypes.SewingNeedle],
+        Belt2,
+        LeatherStrips=4,
+        Thread=5,
+
+        Result:HolsterSimple,
+        Category:Tailoring,
+        SkillRequired:Tailoring=1,
+        Time:200,
+    }
+
+recipe Create Belt
+    {
+        keep [Recipe.GetItemTypes.Scissors],
+		keep [Recipe.GetItemTypes.SewingNeedle],
+        LeatherStrips=3,
+        Thread=4,
+        Result:Belt2,
+        Category:Tailoring,
+        SkillRequired:Tailoring=1,
+        Time:230,
+    }
+
+recipe Cut Belt
+    {
+        keep [Recipe.GetItemTypes.Scissors],
+        Belt2/Belt3/Belt4,
+        Result:LeatherStrips=2,
+        Category:Tailoring,
+        Time:60,
+	
+    }
+}
