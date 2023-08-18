@@ -26,6 +26,7 @@ description=Subscribe to this mod normally and enable the patches that you need.
 description=
 description=[h2]Patch lists:[/h2]
 description=[list]
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2870742794]Tools of The Trade[/url] - [i]Pipe Wrench[/i] (New Tag) tags
 description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2803794394]For Science![/url] - [i]Scissors & SharpKnife[/i] tags
 description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2754567348]Noir's Attachments[/url] - [i]Scissors & SewingNeedle[/i] tags
 description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2875848298]Common Sense[/url] - [i]Crowbar[/i] tags
