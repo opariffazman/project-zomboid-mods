@@ -8,7 +8,7 @@ local function HideRecipe()
   if recipes then
     for i = 0, recipes:size() - 1 do
       local recipe = recipes:get(i)
-      print("Remastered Kitsune's Crossbow Mod patched")
+      -- print("Remastered Kitsune's Crossbow Mod patched")
 
       if recipe:getName() == "Dismantle Hand Crossbow" or
       recipe:getName() == "Dismantle Hunting Crossbow" or

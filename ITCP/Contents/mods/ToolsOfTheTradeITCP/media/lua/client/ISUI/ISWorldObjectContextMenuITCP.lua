@@ -31,7 +31,7 @@ function ISWorldObjectContextMenu.createMenu(player, worldobjects, x, y, test)
   local playerInv = playerObj:getInventory()
 
   if canBeWaterPiped then
-    print('canBeWaterPiped patched')
+    -- print('canBeWaterPiped patched')
     if test == true then return true; end
     local name = getMoveableDisplayName(canBeWaterPiped) or ""
     local option = context:addOptionOnTop(getText("ContextMenu_PlumbItemITCP", name), worldobjects, ISWorldObjectContextMenu.onPlumbItem, playerObj, canBeWaterPiped)

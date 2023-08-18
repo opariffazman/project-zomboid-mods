@@ -8,7 +8,7 @@ local function HideRecipe()
   if recipes then
     for i = 0, recipes:size() - 1 do
       local recipe = recipes:get(i)
-      print("nattachments patched")
+      -- print("nattachments patched")
 
       if recipe:getName() == "Add Weapon Slot"
           or recipe:getName() == "Remove Weapon Slot"
