@@ -1,9 +1,10 @@
-if getActivatedMods():contains("ItemTweakerAPI") then
-  require("ItemTweaker_Core");
-else
-  return
-end
+local itemNames = {
+  "Base.Scalpel"
+}
 
-Events.OnGameBoot.Add(function()
-  TweakItem("Base.Scalpel", "Tags", "SharpKnife");
-end)
+for _, itemName in ipairs(itemNames) do
+  local item = ScriptManager.instance:getItem(itemName)
+  if item then
+      item:DoParam("Tags = SharpKnife")
+  end
+end
