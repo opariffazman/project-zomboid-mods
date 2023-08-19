@@ -7,7 +7,7 @@ module KCMweapons
 
 	/****************************** REPAIR & DISMANTLE RECIPES ******************************/
 
-	recipe Deconstruct Hand Crossbow
+	recipe Dismantle Hand Crossbow
 	{
 		keep [Recipe.GetItemTypes.Screwdriver],
 		HandCrossbow,
@@ -21,9 +21,10 @@ module KCMweapons
         	Category            		: Crossbows,
 		AnimNode 			: Disassemble,
         Prop1				: Screwdriver,
+				Override:True,
 	}
 	
-	recipe Deconstruct Hunting Crossbow
+	recipe Dismantle Hunting Crossbow
 	{
 		KCM_Compound02/KCM_Compound,
         keep [Recipe.GetItemTypes.Screwdriver],
@@ -36,9 +37,10 @@ module KCMweapons
         	Category            		: Crossbows,
 		AnimNode 			: Disassemble,
         Prop1				: Screwdriver,
+				Override:True,
 	}
 
-	recipe Deconstruct Long Crossbow Bolts (x3)
+	recipe Dismantle Long Crossbow Bolts (x3)
 	{
 		CrossbowBoltLarge = 3,
         keep [Recipe.GetItemTypes.Saw],
@@ -51,9 +53,10 @@ module KCMweapons
         	Category            		: Crossbows,
 		AnimNode 			: Disassemble,
         Prop1				: Hacksaw,
+				Override:True,
 	}
 	
-	recipe Deconstruct Short Crossbow Bolts (x3)
+	recipe Dismantle Short Crossbow Bolts (x3)
 	{
 		CrossbowBolt = 3,
         keep [Recipe.GetItemTypes.Saw],
@@ -66,13 +69,14 @@ module KCMweapons
         	Category            		: Crossbows,
 		AnimNode 			: Disassemble,
         Prop1				: Hacksaw,
+				Override:True,
 	}
 
 
 
 	/****************************** CRAFTING RECIPES ******************************/
 
-	recipe Create Wooden Crossbow
+	recipe Craft Wooden Crossbow
 
 	{
 		Plank=4,
@@ -92,9 +96,10 @@ module KCMweapons
 		OnGiveXP			: Give10WoodworkXP,
         Prop1				: Hacksaw,
 		NeedToBeLearn:true,
+				Override:True,
 	}
 
-	recipe Create Metal Crossbow
+	recipe Craft Metal Crossbow
 
 	{
 		SmallSheetMetal=2,
@@ -114,9 +119,10 @@ module KCMweapons
 		OnGiveXP			: Give10MetalWeldingXP,
         Prop1				: BlowTorch,
 		NeedToBeLearn:true,
+				Override:True,
 	}
 
-	recipe Create Wooden Crossbow Bolts (x3)
+	recipe Craft Wooden Crossbow Bolts (x3)
     {
        SharpedStone = 3,
 	   WoodenStick = 3,
@@ -132,9 +138,10 @@ module KCMweapons
 	   Prop1:Hammer,
        Category:Crossbows,
 	   NeedToBeLearn:true,
+				Override:True,
     }
 
-	recipe Create Wooden Crossbow Bolts (x3)
+	recipe Craft Wooden Crossbow Bolts (x3)
     {
        ScrapMetal = 1,
 	   WoodenStick = 3,
@@ -150,9 +157,10 @@ module KCMweapons
 	   Prop1:Hammer,
        Category:Crossbows,
 	   NeedToBeLearn:true,
+				Override:True,
     }
 
-	recipe Create Bolt Fletching (x3)
+	recipe Craft Bolt Fletching (x3)
 
     {
        ScrapMetal,	
@@ -167,9 +175,10 @@ module KCMweapons
        Prop1:GardenSaw,
        Category:Crossbows,
 	   NeedToBeLearn:true,
+				Override:True,
     }
 	
-    recipe Create Short Shafts (x3)
+    recipe Craft Short Shafts (x3)
     {
        ScrapMetal,
 	   keep [Recipe.GetItemTypes.Hammer],
@@ -183,9 +192,10 @@ module KCMweapons
 	   Prop1:GardenSaw,
        Category:Crossbows,
 	   NeedToBeLearn:true,
+				Override:True,
     }
 	
-	recipe Create Long Shafts (x3)
+	recipe Craft Long Shafts (x3)
     {
        ScrapMetal,
 	   keep [Recipe.GetItemTypes.Hammer],
@@ -199,9 +209,10 @@ module KCMweapons
 	   Prop1:GardenSaw,
        Category:Crossbows,
 	   NeedToBeLearn:true,
+				Override:True,
     }
 
-    recipe Create Bolt Head (x3)
+    recipe Craft Bolt Head (x3)
     {
        ScrapMetal,
 	   keep [Recipe.GetItemTypes.Hammer],
@@ -215,9 +226,10 @@ module KCMweapons
        Prop1:GardenSaw,
        Category:Crossbows,
 	   NeedToBeLearn:true,
+				Override:True,
     }
 	
-    recipe Create Long Crossbow Bolt (x3)
+    recipe Craft Long Crossbow Bolt (x3)
     {
        CrossbowBoltFletching = 3,
 	   LongShaft = 3,
@@ -233,9 +245,10 @@ module KCMweapons
 	   Prop1:Hammer,
        Category:Crossbows,
 	   NeedToBeLearn:true,
+				Override:True,
     }
 	
-	recipe Create Short Crossbow Bolt (x3)
+	recipe Craft Short Crossbow Bolt (x3)
     {
        CrossbowBoltFletching = 3,
 	   ShortShaft = 3,
@@ -251,9 +264,10 @@ module KCMweapons
 	   Prop1:Hammer,
        Category:Crossbows,
 	   NeedToBeLearn:true,
+				Override:True,
     }
 
-	recipe Create Chipped Stone
+	recipe Craft Chipped Stone
 	{
 		Stone=4,
 		keep [Recipe.GetItemTypes.Hammer],
@@ -262,11 +276,12 @@ module KCMweapons
 		Time:300,
 		CanBeDoneFromFloor:true,
 		Category:Survivalist,
+				Override:True,
 	}
 
 
 	/****************************** ATTACHMENT CONVERSION RECIPES******************************/
-    recipe Change Sling to Crossbow Sling
+    recipe Convert Sling to Crossbow Sling
     {
        Sling,
 	   keep [Recipe.GetItemTypes.Screwdriver],
@@ -277,9 +292,10 @@ module KCMweapons
 	   AnimNode:Disassemble,
 	   Prop1:Screwdriver,
        NeedToBeLearn:FALSE,
+				Override:True,
     }
 
-    recipe Change Ironsight to Crossbow Ironsight
+    recipe Convert Ironsight to Crossbow Ironsight
     {
        IronSight,
 	   keep [Recipe.GetItemTypes.Screwdriver],
@@ -290,9 +306,10 @@ module KCMweapons
 	   AnimNode:Disassemble,
 	   Prop1:Screwdriver,
        NeedToBeLearn:FALSE,
+				Override:True,
     }
 
-    recipe Change x2 Scope to Crossbow x2 Scope
+    recipe Convert x2 Scope to Crossbow x2 Scope
     {
        x2Scope,
 	   keep [Recipe.GetItemTypes.Screwdriver],
@@ -303,9 +320,10 @@ module KCMweapons
 	   AnimNode:Disassemble,
 	   Prop1:Screwdriver,
        NeedToBeLearn:FALSE,
+				Override:True,
     }
 
-    recipe Change x4 Scope to Crossbow x4 Scope
+    recipe Convert x4 Scope to Crossbow x4 Scope
     {
        x4Scope,
 	   keep [Recipe.GetItemTypes.Screwdriver],
@@ -316,9 +334,10 @@ module KCMweapons
 	   AnimNode:Disassemble,
 	   Prop1:Screwdriver,
        NeedToBeLearn:FALSE,
+				Override:True,
     }
 
-    recipe Change x8 Scope to Crossbow x8 Scope
+    recipe Convert x8 Scope to Crossbow x8 Scope
     {
        x8Scope,
 	   keep [Recipe.GetItemTypes.Screwdriver],
@@ -329,9 +348,10 @@ module KCMweapons
 	   AnimNode:Disassemble,
 	   Prop1:Screwdriver,
        NeedToBeLearn:FALSE,
+				Override:True,
     }
 
-    recipe Change RedDot to Crossbow RedDot
+    recipe Convert RedDot to Crossbow RedDot
     {
        RedDot,
 	   keep [Recipe.GetItemTypes.Screwdriver],
@@ -342,9 +362,10 @@ module KCMweapons
 	   AnimNode:Disassemble,
 	   Prop1:Screwdriver,
        NeedToBeLearn:FALSE,
+				Override:True,
     }
 
-    recipe Change Stock to Crossbow Stock
+    recipe Convert Stock to Crossbow Stock
     {
        FiberglassStock,
 	   keep [Recipe.GetItemTypes.Screwdriver],
@@ -355,9 +376,10 @@ module KCMweapons
 	   AnimNode:Disassemble,
 	   Prop1:Screwdriver,
        NeedToBeLearn:FALSE,
+				Override:True,
     }
 
-    recipe Change Laser to Crossbow Laser
+    recipe Convert Laser to Crossbow Laser
     {
        Laser,
 	   keep [Recipe.GetItemTypes.Screwdriver],
@@ -368,9 +390,10 @@ module KCMweapons
 	   AnimNode:Disassemble,
 	   Prop1:Screwdriver,
        NeedToBeLearn:FALSE,
+				Override:True,
     }
 
-    recipe Change Crossbow Sling to Normal Sling
+    recipe Convert Crossbow Sling to Normal Sling
     {
        KCM_Sling,
 	   keep [Recipe.GetItemTypes.Screwdriver],
@@ -381,9 +404,10 @@ module KCMweapons
 	   AnimNode:Disassemble,
 	   Prop1:Screwdriver,
        NeedToBeLearn:FALSE,
+				Override:True,
     }
 
-    recipe Change Crossbow Ironsight to Normal Ironsight
+    recipe Convert Crossbow Ironsight to Normal Ironsight
     {
        KCM_IronSight,
 	   keep [Recipe.GetItemTypes.Screwdriver],
@@ -394,9 +418,10 @@ module KCMweapons
 	   AnimNode:Disassemble,
 	   Prop1:Screwdriver,
        NeedToBeLearn:FALSE,
+				Override:True,
     }
 
-    recipe Change Crossbow x2 Scope to Normal x2 Scope
+    recipe Convert Crossbow x2 Scope to Normal x2 Scope
     {
        KCM_x2Scope,
 	   keep [Recipe.GetItemTypes.Screwdriver],
@@ -407,9 +432,10 @@ module KCMweapons
 	   AnimNode:Disassemble,
 	   Prop1:Screwdriver,
        NeedToBeLearn:FALSE,
+				Override:True,
     }
 
-    recipe Change Crossbow x4 Scope to Normal 4x Scope
+    recipe Convert Crossbow x4 Scope to Normal 4x Scope
     {
        KCM_x4Scope,
 	   keep [Recipe.GetItemTypes.Screwdriver],
@@ -420,9 +446,10 @@ module KCMweapons
 	   AnimNode:Disassemble,
 	   Prop1:Screwdriver,
        NeedToBeLearn:FALSE,
+				Override:True,
     }
 
-    recipe Change Crossbow x8 Scope to Normal x8 Scope
+    recipe Convert Crossbow x8 Scope to Normal x8 Scope
     {
        KCM_x8Scope,
 	   keep [Recipe.GetItemTypes.Screwdriver],
@@ -433,9 +460,10 @@ module KCMweapons
 	   AnimNode:Disassemble,
 	   Prop1:Screwdriver,
        NeedToBeLearn:FALSE,
+				Override:True,
     }
 
-    recipe Change Crossbow RedDot to Normal RedDot
+    recipe Convert Crossbow RedDot to Normal RedDot
     {
        KCM_RedDot,
 	   keep [Recipe.GetItemTypes.Screwdriver],
@@ -446,9 +474,10 @@ module KCMweapons
 	   AnimNode:Disassemble,
 	   Prop1:Screwdriver,
        NeedToBeLearn:FALSE,
+				Override:True,
     }
 
-    recipe Change Crossbow Stock to Normal Stock
+    recipe Convert Crossbow Stock to Normal Stock
     {
        KCM_FiberglassStock,
 	   keep [Recipe.GetItemTypes.Screwdriver],
@@ -459,9 +488,10 @@ module KCMweapons
 	   AnimNode:Disassemble,
 	   Prop1:Screwdriver,
        NeedToBeLearn:FALSE,
+				Override:True,
     }
 
-    recipe Change Crossbow Laser to Normal Laser
+    recipe Convert Crossbow Laser to Normal Laser
     {
        KCM_Laser,
 	   keep [Recipe.GetItemTypes.Screwdriver],
@@ -472,5 +502,6 @@ module KCMweapons
 	   AnimNode:Disassemble,
 	   Prop1:Screwdriver,
        NeedToBeLearn:FALSE,
+				Override:True,
     }
 }
