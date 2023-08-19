@@ -1,11 +1,18 @@
-local itemNames = {
-  "Base.PipeWrench",
-  "ToolsOfTheTrade.IndustrialPipeWrench"
+local itemData = {
+  ["Base.PipeWrench"] = {
+    Tags = "PipeWrench"
+  },
+  ["ToolsOfTheTrade.IndustrialPipeWrench"] = {
+    Tags = "PipeWrench"
+  },
+  ["ToolsOfTheTrade.IndustrialWrench"] = {
+    Tags = "Wrench"
+}
 }
 
-for _, itemName in ipairs(itemNames) do
+for itemName, data in pairs(itemData) do
   local item = ScriptManager.instance:getItem(itemName)
   if item then
-      item:DoParam("Tags = PipeWrench")
+      item:DoParam("Tags = " .. data.Tags)
   end
 end
