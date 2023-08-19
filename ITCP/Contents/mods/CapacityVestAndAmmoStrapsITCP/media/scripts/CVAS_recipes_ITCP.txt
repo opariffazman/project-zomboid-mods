@@ -1,6 +1,6 @@
 module Base
 {
-    recipe Create grey hunting vest
+    recipe Make grey hunting vest
 	{
 		Sheet=2,
 		Thread=10,
@@ -14,8 +14,9 @@ module Base
 		Time:1000.0,
 		Category:Tailoring,
 		SkillRequired:Tailoring=2
+		Override:True,
 	}
-	recipe Create orange hunting vest
+	recipe Make orange hunting vest
 	{
 		Sheet=2,
 		Thread=10,
@@ -29,8 +30,9 @@ module Base
 		Time:1000.0,
 		Category:Tailoring,
 		SkillRequired:Tailoring=2
+		Override:True,
 	}
-	recipe Create camo hunting vest
+	recipe Make camo hunting vest
 	{
 		Sheet=2,
 		Thread=10,
@@ -44,8 +46,9 @@ module Base
 		Time:1000.0,
 		Category:Tailoring,
 		SkillRequired:Tailoring=2
+		Override:True,
 	}
-	recipe Create green camo hunting vest
+	recipe Make green camo hunting vest
 	{
 		Sheet=2,
 		Thread=10,
@@ -59,8 +62,9 @@ module Base
 		Time:1000.0,
 		Category:Tailoring,
 		SkillRequired:Tailoring=2
+		Override:True,
 	}
-	recipe Create shells ammo strap
+	recipe Make shells ammo strap
 	{
 		LeatherStrips=10,
 		Thread=10,
@@ -72,8 +76,9 @@ module Base
 		Time:1000.0,
 		Category:Tailoring,
 		SkillRequired:Tailoring=2
+		Override:True,
 	}
-	recipe Create bullets ammo strap
+	recipe Make bullets ammo strap
 	{
 		LeatherStrips=10,
 		Thread=10,
@@ -85,5 +90,6 @@ module Base
 		Time:1000.0,
 		Category:Tailoring,
 		SkillRequired:Tailoring=2
+		Override:True,
 	}
 }

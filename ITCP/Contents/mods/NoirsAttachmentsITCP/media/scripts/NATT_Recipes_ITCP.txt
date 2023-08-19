@@ -1,6 +1,6 @@
 module Base {
 
-	recipe Add Slot Weapon 
+	recipe Add Weapon Slot
     {
         [NATTWeaponSlotBackpacks],
         LeatherStrips=4,
@@ -16,9 +16,10 @@ module Base {
         Category:Tailoring,
 		SkillRequired:Tailoring=2,
 		Tooltip: Tooltip_AddSlotUnequip,
+		Override:True,
     }
 
-	recipe Remove Slot Weapon
+	recipe Remove Weapon Slot
     {
         [NATTWeaponSlotBackpacks],
         keep [Recipe.GetItemTypes.Scissors],
@@ -30,25 +31,10 @@ module Base {
 		OnTest: NATTcheckIsValidRemove,
         Category:Tailoring,
 		Tooltip: Tooltip_AddSlotUnequip,
+		Override:True,
     }
 
-    item NATT_Weapon
-	{
-		Weight	=	0.01,
-		Type	=	Normal,
-		DisplayName	= Weapon Slot,
-		Icon	=	NATTAttachmentSlot,
-	}
-
-    item NATT_Remove_Weapon
-	{
-		Weight	=	0.01,
-		Type	=	Normal,
-		DisplayName	=Weapon Slot,
-		Icon	=	NATTAttachmentSlotRemove,
-	}
-
-    recipe Add Slot Short Weapon 
+    recipe Add Short Weapon Slot
     {
         [NATTShortWeaponSlotBackpacks],
         LeatherStrips=2,
@@ -64,9 +50,10 @@ module Base {
         Category:Tailoring,
 		SkillRequired:Tailoring=2,
 		Tooltip: Tooltip_AddSlotUnequip,
+		Override:True,
     }
 
-	recipe Remove Slot Short Weapon
+	recipe Remove Short Weapon Slot
     {
         [NATTShortWeaponSlotBackpacks],
         keep [Recipe.GetItemTypes.Scissors],
@@ -78,25 +65,10 @@ module Base {
 		OnTest: NATTcheckIsValidRemove,
         Category:Tailoring,
 		Tooltip: Tooltip_AddSlotUnequip,
+		Override:True,
     }
 
-    item NATT_ShortWeapon
-	{
-		Weight	=	0.01,
-		Type	=	Normal,
-		DisplayName	= Short Weapon Slot,
-		Icon	=	NATTAttachmentSlot,
-	}
-
-    item NATT_Remove_ShortWeapon
-	{
-		Weight	=	0.01,
-		Type	=	Normal,
-		DisplayName	=Short Weapon Slot,
-		Icon	=	NATTAttachmentSlotRemove,
-	}
-
-	 recipe Add Slot Flashlight 
+	 recipe Add Flashlight Slot
     {
         [NATTFlashlightSlotBackpacks],
         LeatherStrips=2,
@@ -112,9 +84,10 @@ module Base {
         Category:Tailoring,
 		SkillRequired:Tailoring=2,
 		Tooltip: Tooltip_AddSlotUnequip,
+		Override:True,
     }
 
-	recipe Remove Slot Flashlight
+	recipe Remove Flashlight Slot
     {
         [NATTFlashlightSlotBackpacks],
         keep [Recipe.GetItemTypes.Scissors],
@@ -127,25 +100,10 @@ module Base {
 		OnTest: NATTcheckIsValidRemove,
         Category:Tailoring,
 		Tooltip: Tooltip_AddSlotUnequip,
+		Override:True,
     }
 
-    item NATT_Flashlight
-	{
-		Weight	=	0.01,
-		Type	=	Normal,
-		DisplayName	= Flashlight Slot,
-		Icon	=	NATTAttachmentSlot,
-	}
-
-    item NATT_Remove_Flashlight
-	{
-		Weight	=	0.01,
-		Type	=	Normal,
-		DisplayName	=Flashlight Slot,
-		Icon	=	NATTAttachmentSlotRemove,
-	}
-
-    recipe Add Slot Left 
+    recipe Add Left Side Slot
     {
         [NATTLeftSlotBackpacks],
         LeatherStrips=2,
@@ -161,9 +119,10 @@ module Base {
         Category:Tailoring,
 		SkillRequired:Tailoring=2,
 		Tooltip: Tooltip_AddSlotUnequip,
+		Override:True,
     }
 
-	recipe Remove Slot Left
+	recipe Remove Left Side Slot
     {
         [NATTLeftSlotBackpacks],
         keep [Recipe.GetItemTypes.Scissors],
@@ -175,25 +134,10 @@ module Base {
 		OnTest: NATTcheckIsValidRemove,
         Category:Tailoring,
 		Tooltip: Tooltip_AddSlotUnequip,
+		Override:True,
     }
 
-    item NATT_Left
-	{
-		Weight	=	0.01,
-		Type	=	Normal,
-		DisplayName	= Left Slot,
-		Icon	=	NATTAttachmentSlot,
-	}
-
-    item NATT_Remove_Left
-	{
-		Weight	=	0.01,
-		Type	=	Normal,
-		DisplayName	=Left Slot,
-		Icon	=	NATTAttachmentSlotRemove,
-	}
-
-	 recipe Add Slot Right 
+	 recipe Add Right Side Slot
     {
         [NATTRightSlotBackpacks],
         LeatherStrips=2,
@@ -209,9 +153,10 @@ module Base {
         Category:Tailoring,
 		SkillRequired:Tailoring=2,
 		Tooltip: Tooltip_AddSlotUnequip,
+		Override:True,
     }
 
-	recipe Remove Slot Right
+	recipe Remove Right Side Slot
     {
         [NATTRightSlotBackpacks],
         keep [Recipe.GetItemTypes.Scissors],
@@ -223,25 +168,10 @@ module Base {
 		OnTest: NATTcheckIsValidRemove,
         Category:Tailoring,
 		Tooltip: Tooltip_AddSlotUnequip,
+		Override:True,
     }
 
-    item NATT_Right
-	{
-		Weight	=	0.01,
-		Type	=	Normal,
-		DisplayName	= Right Slot,
-		Icon	=	NATTAttachmentSlot,
-	}
-
-    item NATT_Remove_Right
-	{
-		Weight	=	0.01,
-		Type	=	Normal,
-		DisplayName	=Right Slot,
-		Icon	=	NATTAttachmentSlotRemove,
-	}
-
-     recipe Add Slot Utility Left 
+     recipe Add Utility Left Slot
     {
         [NATTUtilityLeftSlotBackpacks],
         LeatherStrips=2,
@@ -257,9 +187,10 @@ module Base {
         Category:Tailoring,
 		SkillRequired:Tailoring=2,
 		Tooltip: Tooltip_AddSlotUnequip,
+		Override:True,
     }
 
-	recipe Remove Slot Utility Left
+	recipe Remove Utility Left Slot
     {
         [NATTUtilityLeftSlotBackpacks],
         keep [Recipe.GetItemTypes.Scissors],
@@ -271,25 +202,10 @@ module Base {
 		OnTest: NATTcheckIsValidRemove,
         Category:Tailoring,
 		Tooltip: Tooltip_AddSlotUnequip,
+		Override:True,
     }
 
-    item NATT_UtilityLeft
-	{
-		Weight	=	0.01,
-		Type	=	Normal,
-		DisplayName	= Utility Left Slot,
-		Icon	=	NATTAttachmentSlot,
-	}
-
-    item NATT_Remove_UtilityLeft
-	{
-		Weight	=	0.01,
-		Type	=	Normal,
-		DisplayName	=Utility Left Slot,
-		Icon	=	NATTAttachmentSlotRemove,
-	}
-
-	  recipe Add Slot Utility Right 
+	  recipe Add Utility Right Slot
     {
         [NATTUtilityRightSlotBackpacks],
         LeatherStrips=2,
@@ -305,9 +221,10 @@ module Base {
         Category:Tailoring,
 		SkillRequired:Tailoring=2,
 		Tooltip: Tooltip_AddSlotUnequip,
+		Override:True,
     }
 
-	recipe Remove Slot Utility Right
+	recipe Remove Utility Right Slot
     {
         [NATTUtilityRightSlotBackpacks],
         keep [Recipe.GetItemTypes.Scissors],
@@ -319,25 +236,10 @@ module Base {
 		OnTest: NATTcheckIsValidRemove,
         Category:Tailoring,
 		Tooltip: Tooltip_AddSlotUnequip,
+		Override:True,
     }
 
-    item NATT_UtilityRight
-	{
-		Weight	=	0.01,
-		Type	=	Normal,
-		DisplayName	= Utility Right Slot,
-		Icon	=	NATTAttachmentSlot,
-	}
-
-    item NATT_Remove_UtilityRight
-	{
-		Weight	=	0.01,
-		Type	=	Normal,
-		DisplayName	= Utility Right Slot,
-		Icon	=	NATTAttachmentSlotRemove,
-	}
-
-	 recipe Add Slot Container 
+	 recipe Add Container Slot
     {
         [NATTContainerSlotBackpacks],
         LeatherStrips=2,
@@ -353,9 +255,10 @@ module Base {
         Category:Tailoring,
 		SkillRequired:Tailoring=2,
 		Tooltip: Tooltip_AddSlotUnequip,
+		Override:True,
     }
 
-	recipe Remove Slot Container
+	recipe Remove Container Slot
     {
         [NATTContainerSlotBackpacks],
         keep [Recipe.GetItemTypes.Scissors],
@@ -367,25 +270,10 @@ module Base {
 		OnTest: NATTcheckIsValidRemove,
         Category:Tailoring,
 		Tooltip: Tooltip_AddSlotUnequip,
+		Override:True,
     }
 
-    item NATT_Container
-	{
-		Weight	=	0.01,
-		Type	=	Normal,
-		DisplayName	= Container Slot,
-		Icon	=	NATTAttachmentSlot,
-	}
-
-    item NATT_Remove_Container
-	{
-		Weight	=	0.01,
-		Type	=	Normal,
-		DisplayName	= Container Slot,
-		Icon	=	NATTAttachmentSlotRemove,
-	}
-
-	 recipe Add Slot Small Container Left 
+	 recipe Add Small Container Left Slot
     {
         [NATTSmallContainerLeftSlotBackpacks],
         LeatherStrips=2,
@@ -401,9 +289,10 @@ module Base {
         Category:Tailoring,
 		SkillRequired:Tailoring=2,
 		Tooltip: Tooltip_AddSlotUnequip,
+		Override:True,
     }
 
-	recipe Remove Slot Small Container Left
+	recipe Remove Small Container Left Slot
     {
         [NATTSmallContainerLeftSlotBackpacks],
         keep [Recipe.GetItemTypes.Scissors],
@@ -415,25 +304,10 @@ module Base {
 		OnTest: NATTcheckIsValidRemove,
         Category:Tailoring,
 		Tooltip: Tooltip_AddSlotUnequip,
+		Override:True,
     }
 
-    item NATT_ContainerSmallLeft
-	{
-		Weight	=	0.01,
-		Type	=	Normal,
-		DisplayName	= Small Container Left Slot,
-		Icon	=	NATTAttachmentSlot,
-	}
-
-    item NATT_Remove_ContainerSmallLeft
-	{
-		Weight	=	0.01,
-		Type	=	Normal,
-		DisplayName	= Small Container Left Slot,
-		Icon	=	NATTAttachmentSlotRemove,
-	}
-
-	 recipe Add Slot Small Container Right 
+	 recipe Add Small Container Right Slot
     {
         [NATTSmallContainerRightSlotBackpacks],
         LeatherStrips=2,
@@ -449,9 +323,10 @@ module Base {
         Category:Tailoring,
 		SkillRequired:Tailoring=2,
 		Tooltip: Tooltip_AddSlotUnequip,
+		Override:True,
     }
 
-	recipe Remove Slot Small Container Right
+	recipe Remove Small Container Right Slot
     {
         [NATTSmallContainerRightSlotBackpacks],
         keep [Recipe.GetItemTypes.Scissors],
@@ -463,25 +338,10 @@ module Base {
 		OnTest: NATTcheckIsValidRemove,
         Category:Tailoring,
 		Tooltip: Tooltip_AddSlotUnequip,
+		Override:True,
     }
 
-    item NATT_ContainerSmallRight
-	{
-		Weight	=	0.01,
-		Type	=	Normal,
-		DisplayName	= Small Container Right Slot,
-		Icon	=	NATTAttachmentSlot,
-	}
-
-    item NATT_Remove_ContainerSmallRight
-	{
-		Weight	=	0.01,
-		Type	=	Normal,
-		DisplayName	= Small Container Right Slot,
-		Icon	=	NATTAttachmentSlotRemove,
-	}
-
-    recipe Add Slot Bedroll 
+    recipe Add Bedroll Slot
     {
         [NATTBedrollSlotBackpacks],
         LeatherStrips=2,
@@ -497,9 +357,10 @@ module Base {
         Category:Tailoring,
 		SkillRequired:Tailoring=2,
 		Tooltip: Tooltip_AddSlotUnequip,
+		Override:True,
     }
 
-	recipe Remove Slot Bedroll
+	recipe Remove Bedroll Slot
     {
         [NATTBedrollSlotBackpacks],
         keep [Recipe.GetItemTypes.Scissors],
@@ -511,22 +372,7 @@ module Base {
 		OnTest: NATTcheckIsValidRemove,
         Category:Tailoring,
 		Tooltip: Tooltip_AddSlotUnequip,
+		Override:True,
     }
-
-    item NATT_Bedroll
-	{
-		Weight	=	0.01,
-		Type	=	Normal,
-		DisplayName	= Bedroll Slot,
-		Icon	=	NATTAttachmentSlot,
-	}
-
-    item NATT_Remove_Bedroll
-	{
-		Weight	=	0.01,
-		Type	=	Normal,
-		DisplayName	= Bedroll Slot,
-		Icon	=	NATTAttachmentSlotRemove,
-	}
 
 }

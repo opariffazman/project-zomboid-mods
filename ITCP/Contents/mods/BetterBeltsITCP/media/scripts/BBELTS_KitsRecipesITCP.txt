@@ -1,6 +1,6 @@
 module Base
 {
-	recipe Create Quiver
+	recipe Make Quiver
     {
         HookB,
         LeatherStrips=4,
@@ -13,5 +13,6 @@ module Base
         Category:Tailoring,
         SkillRequired:Tailoring=1,
         Time:350,
+        Override:True,
     }
 }	

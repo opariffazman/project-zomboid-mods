@@ -1,6 +1,6 @@
 module Base
 {
-	recipe Create Holster
+	recipe Make Holster
     {
         keep [Recipe.GetItemTypes.Scissors],
 		keep [Recipe.GetItemTypes.SewingNeedle],
@@ -12,9 +12,10 @@ module Base
         Category:Tailoring,
         SkillRequired:Tailoring=1,
         Time:200,
+        Override:True,
     }
 
-recipe Create Belt
+recipe Make Belt
     {
         keep [Recipe.GetItemTypes.Scissors],
 		keep [Recipe.GetItemTypes.SewingNeedle],
@@ -24,15 +25,16 @@ recipe Create Belt
         Category:Tailoring,
         SkillRequired:Tailoring=1,
         Time:230,
+        Override:True,
     }
 
-recipe Cut Belt
+recipe Rip Belt
     {
         keep [Recipe.GetItemTypes.Scissors],
         Belt2/Belt3/Belt4,
         Result:LeatherStrips=2,
         Category:Tailoring,
         Time:60,
-	
+        Override:True,
     }
 }
