@@ -23,7 +23,6 @@ description=
 description=[h2]Installation[/h2]
 description=Subscribe to the original mod and this one, enable both.
 description=
-description=
 description=[h2]Compatibility[/h2]
 description=Build 41.78+
 description=
@@ -39,5 +38,9 @@ description=
 description=[url=https://ko-fi.com/opsedar][img]https://cdn.discordapp.com/attachments/1114746877548707860/1140686324152680568/Ko-fi.gif[/img][/url]
 description=
 description=[img]https://cdn.discordapp.com/attachments/1114746877548707860/1140883756903833672/steam-workshop.gif[/img]
+description=
+description=[h2]My Other Mods[/h2]
+description=[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3020000656][img]https://media.discordapp.net/attachments/1114746877548707860/1142501006496780419/preview.png[/img][/url]
+description=
 tags=Build 41;Interface
 visibility=public
