@@ -1,0 +1,6 @@
+name=BaseITCP
+id=BaseITCP
+description=Compatibility patch of Base mod to interact with some in-game mechanics.
+description=Works on 41.78+.
+poster=poster.png
+icon=icon.png
