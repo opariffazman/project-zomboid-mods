@@ -36,6 +36,7 @@ description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=25885
 description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2948810285]Capacity Vest and Ammo Straps[/url] - [i]Scissors & SewingNeedle[/i] tags
 description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2127583399]Better Belts[/url] - [i]Scissors & SewingNeedle[/i] tags
 description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2572385719]Remastered Kitsune's Crossbow Mod[/url] - [i]Scissors, SharpKnife & Glue[/i] tags
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2923979345]Crafting Enhanced Core[/url] - [i]Screwdriver & Hammer[/i] tags
 description=[/list]
 description=
 description=[h2]Compatibility[/h2]
