@@ -6,9 +6,9 @@ description=[b]Compatibility patches for various other mods that uses hardcoded 
 description=
 description=[h2]Problem[/h2]
 description=[list]
-description=[*]Items added by [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2870742794]Tools of The Trade[/url] correctly uses in-game [b]Tags[/b].
+description=[*]Items added by [url=https://steamcommunity.com/workshop/filedetails/?id=2870742794]Tools of The Trade[/url] correctly uses in-game [b]Tags[/b].
 description=[*]The Spiffo Army Knife has [i]"Scissors"[/i] and [i]"SewingNeedle"[/i] [b]Tags[/b].
-description=[*]But recipes from mods [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2754567348]Noir's Attachments[/url] won't work with it.
+description=[*]But recipes from mods [url=https://steamcommunity.com/workshop/filedetails/?id=2754567348]Noir's Attachments[/url] won't work with it.
 description=[*]As it will only works if you specifically have these items [i]"Scissors"[/i] & [i]"Needle"[/i].
 description=[*]So tools from other mods that are tagged correctly won't be usable with other mods that have hardcoded values.
 description=[/list]
@@ -18,7 +18,7 @@ description=[list]
 description=[*]This mod fixes that by using the corresponding [b]Tags[/b] instead.
 description=[*]Other mod items that uses in-game [b]Tags[/b] will also be usable with these patched mods.
 description=[*]Recipes or actions added by these patched mods will correctly recognize the items added.
-description=[*]Note: It is not limited to [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2870742794]Tools of The Trade[/url] [i](This is just what I use.)[/i]
+description=[*]Note: It is not limited to [url=https://steamcommunity.com/workshop/filedetails/?id=2870742794]Tools of The Trade[/url] [i](This is just what I use.)[/i]
 description=[/list]
 description=
 description=[h2]Installation[/h2]
@@ -26,17 +26,18 @@ description=Subscribe to this mod normally and enable the patches that you need.
 description=
 description=[h2]Patch lists:[/h2]
 description=[list]
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2870742794]Tools of The Trade[/url] - [i]Pipe Wrench[/i] (New Tag) tags
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2803794394]For Science![/url] - [i]Scissors & SharpKnife[/i] tags
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2754567348]Noir's Attachments[/url] - [i]Scissors & SewingNeedle[/i] tags
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2875848298]Common Sense[/url] - [i]Crowbar[/i] tags
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2012990668]Reorganized Info Screen[/url] - [i]Razor[/i] tags
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2584991527]Auto Sewing[/url] - [i]SewingNeedle[/i] tags
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2588598892]Auto Mechanics[/url] - [i]Screwdriver[/i] tags
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2948810285]Capacity Vest and Ammo Straps[/url] - [i]Scissors & SewingNeedle[/i] tags
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2127583399]Better Belts[/url] - [i]Scissors & SewingNeedle[/i] tags
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2572385719]Remastered Kitsune's Crossbow Mod[/url] - [i]Scissors, SharpKnife & Glue[/i] tags
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2923979345]Crafting Enhanced Core[/url] - [i]Screwdriver & Hammer[/i] tags
+description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2870742794]Tools of The Trade[/url] - [i]Pipe Wrench[/i] (New Tag) tags
+description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2803794394]For Science![/url] - [i]Scissors & SharpKnife[/i] tags
+description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2754567348]Noir's Attachments[/url] - [i]Scissors & SewingNeedle[/i] tags
+description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2875848298]Common Sense[/url] - [i]Crowbar[/i] tags
+description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2012990668]Reorganized Info Screen[/url] - [i]Razor[/i] tags
+description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2584991527]Auto Sewing[/url] - [i]SewingNeedle[/i] tags
+description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2588598892]Auto Mechanics[/url] - [i]Screwdriver[/i] tags
+description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2948810285]Capacity Vest and Ammo Straps[/url] - [i]Scissors & SewingNeedle[/i] tags
+description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2127583399]Better Belts[/url] - [i]Scissors & SewingNeedle[/i] tags
+description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2572385719]Remastered Kitsune's Crossbow Mod[/url] - [i]Scissors, SharpKnife & Glue[/i] tags
+description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2923979345]Crafting Enhanced Core[/url] - [i]Screwdriver & Hammer[/i] tags
+description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2392709985]tsarslib[/url] - [i]Screwdriver & Wrench[/i] tags
 description=[/list]
 description=
 description=[h2]Compatibility[/h2]
@@ -56,6 +57,6 @@ description=
 description=[img]https://cdn.discordapp.com/attachments/1114746877548707860/1140883756903833672/steam-workshop.gif[/img]
 description=
 description=[h2]My Other Mods[/h2]
-description=[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3020524923][img]https://media.discordapp.net/attachments/1114746877548707860/1142501040114106528/preview.png[/img][/url]
+description=[url=https://steamcommunity.com/workshop/filedetails/?id=3020524923][img]https://media.discordapp.net/attachments/1114746877548707860/1142501040114106528/preview.png[/img][/url]
 tags=Build 41;Misc
 visibility=public
