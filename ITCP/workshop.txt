@@ -8,17 +8,16 @@ description=[h2]Problem[/h2]
 description=[list]
 description=[*]Items added by [url=https://steamcommunity.com/workshop/filedetails/?id=2870742794]Tools of The Trade[/url] correctly uses in-game [b]Tags[/b].
 description=[*]The Spiffo Army Knife has [i]"Scissors"[/i] and [i]"SewingNeedle"[/i] [b]Tags[/b].
-description=[*]But recipes from mods [url=https://steamcommunity.com/workshop/filedetails/?id=2754567348]Noir's Attachments[/url] won't work with it.
+description=[*]But [b]actions[/b] from mods [url=https://steamcommunity.com/workshop/filedetails/?id=2584991527]Auto Sewing[/url] won't work with it.
 description=[*]As it will only works if you specifically have these items [i]"Scissors"[/i] & [i]"Needle"[/i].
-description=[*]So tools from other mods that are tagged correctly won't be usable with other mods that have hardcoded values.
+description=[*]So tools from other mods that are tagged correctly won't be usable with other mods (pre tags patch) that have hardcoded values.
 description=[/list]
 description=
 description=[h2]Solution[/h2]
 description=[list]
 description=[*]This mod fixes that by using the corresponding [b]Tags[/b] instead.
-description=[*]Other mod items that uses in-game [b]Tags[/b] will also be usable with these patched mods.
-description=[*]Recipes or actions added by these patched mods will correctly recognize the items added.
-description=[*]Note: It is not limited to [url=https://steamcommunity.com/workshop/filedetails/?id=2870742794]Tools of The Trade[/url] [i](This is just what I use.)[/i]
+description=[*][strike]Recipes or[/strike] Only [b]Actions[/b] added by these patched mods will correctly recognize the items added.
+description=[*]Optional but highly recommended: [url=https://steamcommunity.com/workshop/filedetails/?id=2942762545]Universal Recipes[/url] mod that fix all [b]recipes[/b] (pre tags patch) in more efficient way.
 description=[/list]
 description=
 description=[h2]Installation[/h2]
