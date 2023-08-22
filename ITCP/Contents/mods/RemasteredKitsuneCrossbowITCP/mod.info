@@ -1,7 +1,0 @@
-name=RemasteredKitsuneCrossbowITCP
-id=RemasteredKitsuneCrossbowITCP
-description=Compatibility patch of Remastered Kitsune's Crossbow Mod mod to detect item from matching tags.
-description=Works on 41.78+.
-poster=poster.png
-require=Remastered Kitsune's Crossbow Mod
-icon=icon.png

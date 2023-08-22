@@ -1,7 +1,0 @@
-name=CapacityVestAndAmmoStrapsITCP
-id=CapacityVestAndAmmoStrapsITCP
-description=Compatibility patch of CapacityVestAndAmmoStraps mod to detect item from matching tags.
-description=Works on 41.78+.
-poster=poster.png
-require=CapacityVestAndAmmoStraps
-icon=icon.png

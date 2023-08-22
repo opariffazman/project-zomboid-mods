@@ -22,22 +22,19 @@ description=[*]Note: It is not limited to [url=https://steamcommunity.com/worksh
 description=[/list]
 description=
 description=[h2]Installation[/h2]
-description=Subscribe to this mod normally and enable the patches that you need.
+description=Subscribe to this mod normally and enable it.
+description=ITCP will automatically run patch if any of the patched mod is installed.
 description=
 description=[h2]Patch lists:[/h2]
 description=[list]
-description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2870742794]Tools of The Trade[/url] - [i]Pipe Wrench[/i] (New Tag) tags
-description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2803794394]For Science![/url] - [i]Scissors & SharpKnife[/i] tags
-description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2754567348]Noir's Attachments[/url] - [i]Scissors & SewingNeedle[/i] tags
-description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2875848298]Common Sense[/url] - [i]Crowbar[/i] tags
-description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2012990668]Reorganized Info Screen[/url] - [i]Razor[/i] tags
-description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2584991527]Auto Sewing[/url] - [i]SewingNeedle[/i] tags
-description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2588598892]Auto Mechanics[/url] - [i]Screwdriver[/i] tags
-description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2948810285]Capacity Vest and Ammo Straps[/url] - [i]Scissors & SewingNeedle[/i] tags
-description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2127583399]Better Belts[/url] - [i]Scissors & SewingNeedle[/i] tags
-description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2572385719]Remastered Kitsune's Crossbow Mod[/url] - [i]Scissors, SharpKnife & Glue[/i] tags
-description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2923979345]Crafting Enhanced Core[/url] - [i]Screwdriver & Hammer[/i] tags
-description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2392709985]Tsarslib[/url] - [i]Screwdriver & Wrench[/i] tags
+description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2588598892]Auto Mechanics[/url] - [i]Screwdriver[/i] tag to Train Mechanics
+description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2584991527]Auto Sewing[/url] - [i]SewingNeedle[/i] tag to Train Tailoring
+description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2875848298]Common Sense[/url] - [i]Crowbar[/i] tag to Pry Doors
+description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2923979345]Crafting Enhanced Core[/url] - [i]Screwdriver & Hammer[/i] tags to Create Crafting Tables
+description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2803794394]For Science![/url] - [i]Scissors & SharpKnife[/i] tags to Dissect Corpse & Tinker
+description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2012990668]Reorganized Info Screen[/url] - [i]Razor[/i] tag to Cut Hair/Beard etc
+description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2870742794]Tools of The Trade[/url] - [i]Pipe Wrench[/i] (New Tag) tag to Plumb
+description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2392709985]Tsarslib[/url] - [i]Screwdriver & Wrench[/i] tags to Install Vehicle Upgrades
 description=[/list]
 description=
 description=[h2]Compatibility[/h2]

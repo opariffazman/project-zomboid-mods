@@ -1,0 +1,6 @@
+name=ITCP
+id=ITCP
+description=All in item tags compatibility patch for other mods to detect item from matching tags.
+description=Works on 41.78+.
+poster=poster.png
+icon=icon.png
