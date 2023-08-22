@@ -1,7 +1,0 @@
-name=ReorganizedInfoScreenITCP
-id=ReorganizedInfoScreenITCP
-description=Compatibility patch of ReorganizedInfoScreen mod to detect item from matching tags.
-description=Works on 41.78+.
-poster=poster.png
-require=ReorganizedInfoScreen
-icon=icon.png

@@ -1,7 +1,0 @@
-name=ForScienceITCP
-id=ForScienceITCP
-description=Compatibility patch of ForScience! mod to detect item from matching tags.
-description=Works on 41.78+.
-poster=poster.png
-require=ForScience
-icon=icon.png
