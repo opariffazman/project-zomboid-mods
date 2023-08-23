@@ -11,7 +11,7 @@ local original_canBuildObject
 local function new_canBuildObject(_tooltip, player, table)
   local inv = getPlayer(player):getInventory()
 
-  if not inv:getFirstTagEval(table.requireTool, predicateNotBroken) then
+  if not inv:containsTagEvalRecurse(table.requireTool, predicateNotBroken) then
     _tooltip.description = _tooltip.description .. ' <RGB:1,0,0>' ..
         getText("ContextMenu_RequireTool") .. " " .. getItemNameFromFullType("Base." .. table.requireTool) .. ' <LINE>'
   end
