@@ -2,13 +2,16 @@ if not getActivatedMods():contains("ForScience") then
 	return
 end
 
-local itemNames = {
-  "Base.Scalpel"
+-- to allow dissecting corpses
+local itemData = {
+  ["Base.Scalpel"] = {
+    Tags = "SharpKnife"
+  }
 }
 
-for _, itemName in ipairs(itemNames) do
+for itemName, data in pairs(itemData) do
   local item = ScriptManager.instance:getItem(itemName)
   if item then
-      item:DoParam("Tags = SharpKnife")
+    item:DoParam("Tags = " .. data.Tags)
   end
 end
