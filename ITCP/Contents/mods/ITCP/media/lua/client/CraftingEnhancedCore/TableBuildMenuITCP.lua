@@ -2,6 +2,8 @@ if not getActivatedMods():contains("craftingEnhancedCore") then
 	return
 end
 
+CraftingEnhancedCore = getModInstance()
+
 local function predicateNotBroken(item)
   return not item:isBroken()
 end

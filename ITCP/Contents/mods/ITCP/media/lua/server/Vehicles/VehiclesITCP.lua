@@ -1,5 +1,3 @@
-if isClient() then return end
-
 function VehicleUtils.getItems(playerNum)
   local containers = VehicleUtils.getContainers(playerNum)
   local typeToItem = {}
