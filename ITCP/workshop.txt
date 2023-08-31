@@ -34,6 +34,7 @@ description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=28037943
 description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2012990668]Reorganized Info Screen[/url] - [i]Razor[/i] tag to Cut Hair/Beard etc
 description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2870742794]Tools of The Trade[/url] - [i]Pipe Wrench[/i] (New Tag) tag to Plumb
 description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2392709985]Tsarslib[/url] - [i]Screwdriver & Wrench[/i] tags to Install Vehicle Upgrades
+description=[*][url=https://steamcommunity.com/workshop/filedetails/?id=2996978365]Dynamic Backpack Upgrades[/url] - [i]SewingNeedle & Scissors[/i] tags to Add/Remove Backpack Upgrades
 description=[/list]
 description=
 description=[h2]Compatibility[/h2]
