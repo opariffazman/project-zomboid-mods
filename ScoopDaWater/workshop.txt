@@ -1,5 +1,44 @@
 version=1
+id=3032108907
 title=ScoopDaWater
-description=ScoopDaWater
-tags=Build 41
-visibility=unlisted
+description=[b][h1]Scoop Da Water[/h1][/b]
+description=[b]Grab your bucket & scoop em![/b]
+description=
+description=[h2]Problem[/h2]
+description=[list]
+description=[*]Farming in zomboid get tedious once your water depleted and need a refill.
+description=[*]Filling water from barrels, lake & river feels the same with all water containers.
+description=[*]Even containers like bucket or bowl where in real life we can just scoop em!
+description=[/list]
+description=
+description=[h2]Solution[/h2]
+description=[list]
+description=[*]This mod make containers like bucket or bowl able to take water faster.
+description=[*]Containers like bottle or tin is faster than normal but with slower than containers above.
+description=[*]As long as water is being taken from barrels, lake or river.
+description=[/list]
+description=
+description=[h2]Installation[/h2]
+description=Subscribe to this mod normally and enable it.
+description=
+description=[h2]Compatibility[/h2]
+description=Build 41.78+
+description=
+description=[h2]Known Issue[/h2]
+description=None that I know of.
+description=
+description=[h2]Credits[/h2]
+description=[list]
+description=[*]Indie Stone
+description=[*]Project Zomboid Modding Community
+description=[/list]
+description=
+description=[url=https://ko-fi.com/opsedar][img]https://cdn.discordapp.com/attachments/1114746877548707860/1140686324152680568/Ko-fi.gif[/img][/url]
+description=
+description=[img]https://cdn.discordapp.com/attachments/1114746877548707860/1140883756903833672/steam-workshop.gif[/img]
+description=
+description=[h2]My Other Mods[/h2]
+description=[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3020000656][img]https://media.discordapp.net/attachments/1114746877548707860/1142501006496780419/preview.png[/img][/url]
+description=[url=https://steamcommunity.com/workshop/filedetails/?id=3020524923][img]https://media.discordapp.net/attachments/1114746877548707860/1142501040114106528/preview.png[/img][/url]
+tags=Build 41;Balance;Realistic;Silly/Fun
+visibility=public
