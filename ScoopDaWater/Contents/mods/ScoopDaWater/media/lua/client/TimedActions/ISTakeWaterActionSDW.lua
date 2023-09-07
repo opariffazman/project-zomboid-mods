@@ -37,10 +37,10 @@ function ISTakeWaterAction:start()
           -- print("ScoopThatWater mod item: " .. self.item:getName())
           if self.item:hasTag("FastScoop") then
               -- print('ScoopThatWater mod: FastScoop')
-              self.action:setTime((self.waterUnit * 1) + 30)
+              self.action:setTime((self.waterUnit * 1) + 20)
           elseif self.item:hasTag("SlowScoop") then
               -- print('ScoopThatWater mod: SlowScoop')
-              self.action:setTime((self.waterUnit * 5) + 30)
+              self.action:setTime((self.waterUnit * 5) + 20)
           else
               -- print('ScoopThatWater mod: none')
               self.action:setTime((self.waterUnit * 10) + 30)
