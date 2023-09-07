@@ -56,5 +56,6 @@ description=[img]https://cdn.discordapp.com/attachments/1114746877548707860/1140
 description=
 description=[h2]My Other Mods[/h2]
 description=[url=https://steamcommunity.com/workshop/filedetails/?id=3020524923][img]https://media.discordapp.net/attachments/1114746877548707860/1142501040114106528/preview.png[/img][/url]
+description=[url=https://steamcommunity.com/workshop/filedetails/?id=3032108907][img]https://cdn.discordapp.com/attachments/1114746877548707860/1149282652571050004/preview.png[/img][/url]
 tags=Build 41;Misc
 visibility=public
