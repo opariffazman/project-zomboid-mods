@@ -49,6 +49,7 @@ description=[*]Indie Stone
 description=[*]Project Zomboid Modding Community
 description=[/list]
 description=
+description=[h2]Support Me On[/h2]
 description=[url=https://ko-fi.com/opsedar][img]https://cdn.discordapp.com/attachments/1114746877548707860/1140686324152680568/Ko-fi.gif[/img][/url]
 description=
 description=[img]https://cdn.discordapp.com/attachments/1114746877548707860/1140883756903833672/steam-workshop.gif[/img]
